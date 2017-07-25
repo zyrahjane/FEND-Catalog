@@ -52,9 +52,3 @@ class Cocktail(Base):
             'ingredients': self.ingredients,
             'id': self.id,
         }
-
-
-engine = create_engine('sqlite:///restaurantmenuwithusers.db')
-
-
-Base.metadata.create_all(engine)
