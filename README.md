@@ -25,7 +25,7 @@ VirtualBox is the software that actually runs the VM. [You can download it from 
 
 Vagrant is the software that configures the VM and lets you share files between your host computer and the VM's filesystem.  [You can download it from vagrantup.com.](https://www.vagrantup.com/downloads) Install the version for your operating system.
 
-## 4 Running the Catalog
+### 4 Running the Catalog project
 Once in catalog directory, type **vagrant ssh**. This will log your terminal into the virtual machine, and you'll get a Linux shell prompt. When you want to log out, type **exit** at the shell prompt.  To turn the virtual machine off (without deleting anything), type **vagrant halt**. If you do this, you'll need to run **vagrant up** again before you can log into it.
 
 
